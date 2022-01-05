@@ -1,0 +1,275 @@
+body,
+html {
+  height: 100vw;
+  width: 100%;
+  margin: 0;
+
+  scroll-behavior: smooth;
+
+}
+
+#landingpage {
+  padding: 5%;
+  font-family: 'Poppins', sans-serif;
+  ;
+}
+
+.heading {
+  text-align: center;
+  font-family: serif;
+  padding-bottom: 10px;
+}
+
+.heading h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+
+.nav-item a,
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
+.nav-item a:hover {
+  font-weight: 400;
+  color: rgba(3, 2, 2, 0.993);
+
+}
+
+.about-clay {
+  text-align: center;
+  font-weight: 300;
+  padding: 100px;
+}
+
+.about-clay p {
+  line-height: 2rem;
+  padding-top: 50px;
+}
+
+.about-clay h2 {
+  font-weight: 400;
+}
+
+hr {
+  width: 5%;
+  margin: 0 auto !important;
+  height: 2px !important;
+  margin-bottom: 50px !important;
+  border-top: 6px dotted gray !important;
+  background-color: transparent !important;
+
+
+
+}
+
+/* about */
+.background {
+  padding: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.image-gallery {
+  padding: 100px;
+}
+
+.background img {
+  width: 70%;
+}
+
+.about-html {
+  padding-top: 20px;
+}
+
+.about-html h2 {
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+.about-html p {
+  line-height: 2rem;
+}
+
+.gallery img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #353535;
+  font-size: 3rem;
+  color: #fff;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  transition: all 700ms;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.gallery img:hover {
+  transform: scale(0.93);
+}
+
+.gallery {
+  margin: 0.7rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: auto;
+  padding: 2% 5%;
+  gap: 10px;
+  overflow-y: hidden;
+}
+
+
+.book-button {
+  background-color: transparent;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+}
+
+.work-button {
+  background-color: black;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  margin: 15px;
+}
+
+
+
+/* footer */
+footer {
+  padding-top: 7%;
+  padding-bottom: 3%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-links a {
+  margin: 7px;
+  color: black;
+}
+
+.footer-links a:hover {
+  color: black;
+}
+
+footer p {
+  padding-top: 30px;
+  font-size: 12px;
+  color: gray;
+}
+
+
+
+/* mobile device */
+@media only screen and (max-width:480px) {
+
+  #landingpage {
+    padding: 15% 3%;
+  }
+
+  .about-clay {
+    padding: 50px;
+  }
+
+  .about-clay p {
+    padding-top: 40px;
+    font-weight: 400;
+  }
+
+ 
+
+  hr {
+    width: 10%;
+  }
+
+  footer {
+    padding-top: 15%;
+    padding-bottom: 5%;
+  }
+
+  .footer-links a {
+    margin: 10px;
+  }
+
+  /* about html */
+  .background {
+    padding: 50px;
+  }
+
+  .background img {
+    width: 80%;
+  }
+  .about-html {
+    padding-top: 20px;
+    text-align: left;
+    padding-top: 80px;
+  }
+  
+  .about-html h2 {
+    padding-bottom: 40px;
+  }
+  
+  .about-html p {
+font-weight: 400;
+
+  }
+  
+}
+@media only screen and (max-width:768px){
+    #landingpage {
+        padding: 15% 3% 10%;
+      }
+      hr {
+        width: 10%;
+      }
+      .about-clay {
+        padding:70px 50px 50px;
+      }
+    
+      .about-clay p {
+        padding-top: 40px;
+        font-weight: 400;
+      }
+    
+     
+  footer {
+    padding-top: 15%;
+    padding-bottom: 5%;
+  }
+
+  .footer-links a {
+    margin: 10px;
+  }
+  .background {
+    padding: 50px;
+  }
+
+  .background img {
+    width: 80%;
+  }
+  .about-html {
+    padding-top: 20px;
+    text-align: left;
+    padding-top: 80px;
+  }
+  
+  .about-html h2 {
+    padding-bottom: 40px;
+  }
+  
+  .about-html p {
+font-weight: 400;
+
+}
+}
